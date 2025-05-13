@@ -1,0 +1,489 @@
+header{ 
+    width: 41cm; position:absolute;
+    height:6cm;
+    background-color: rgb(101, 185, 241);
+z-index: 2; background-size:cover;
+background-position: center; }/*sert à costomiser la banniere d'entete*/
+
+
+.alentourlogo{
+    margin: 1cm; border-top-right-radius: 90px ; border-bottom-left-radius: 90px;
+    position: absolute; top:0cm; z-index:2;
+}/*sert à costomiser le logo*/
+
+#pos{
+     block-size: 5%; position: absolute; left:8cm; top:2cm; 
+}/*sert à positionner le nom dropshipzzz dans l'entete*/
+
+#strong1{
+    font-style: italic; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; border-radius:300px;
+    background-image: linear-gradient(95deg,rgb(4, 0, 255),rgb(0, 38, 255),rgb(0, 140, 255),skyblue);
+    color:rgb(180, 39, 39); animation: slide 3s linear infinite;
+}/*sert à costomiser le nom dropshipzzz dans l'entete*/
+
+@keyframes slide{
+        0% { color: red; size: 7%; text-shadow: 0 0 7px red }
+        50% { color: red; size: 10%; text-shadow: 0 0 9px red }
+        90% { color: blue; size: auto; text-shadow: none }
+        100%{ color: red; size: 7%; text-shadow: 0 0 7px red }
+}
+
+/* .let:nth-child(1){
+    animation-delay: 0.1s;
+}
+
+.let:nth-child(2){
+    animation-delay: 0.2s ;
+}
+
+.let:nth-child(3){
+    animation-delay: 0.3s;
+}
+
+.let:nth-child(4){
+    animation-delay: 0.4s;
+}
+
+.let:nth-child(5){
+    animation-delay: 0.5s;
+}
+
+.let:nth-child(6){
+    animation-delay: 0.6s;
+}
+
+.let:nth-child(7){
+    animation-delay: 0.7s;
+}
+
+.let:nth-child(8){
+    animation-delay: 0.8s;
+}
+
+.let:nth-child(9){
+    animation-delay: 0.9s;
+}
+
+.let:nth-child(10){
+    animation-delay: 1s;
+}
+
+.let:nth-child(11){
+    animation-delay: 1.5s;
+} */
+
+#slogan{
+    font-size: 0.5cm ; color: rgb(17, 46, 109); font-family:serif;
+}/*sert à costomiser le slogan qui est en dessous du nom*/
+
+#sm{
+    position: absolute; left:3.5cm; rotate: 90deg; top:2cm; z-index: 1;
+}
+
+h1 li *{
+    rotate: 270deg;
+}
+
+.ctct{
+     color:rgb(7, 7, 7); font-size: 0.3cm; position:absolute; left:7cm; top:3.8cm;
+}
+
+li:hover{
+    font-size:large; translate:10px 10px;
+}
+
+li:visited{
+    color:rgb(177, 177, 48);
+}
+
+#pb{
+    position:absolute; right:7cm; font-size: 20px; top:0cm; 
+}
+
+#option{
+    position:absolute; right:1cm; background-color: thistle; width:5cm; height:1.5cm;
+    text-align: center; border-radius: 10px; border-style: groove;
+    border-width: medium; border-color:yellowgreen;
+    font-weight: bold; font-size:20px; font-family:Arial, Helvetica, sans-serif;
+    animation: ins 2s linear infinite
+}
+
+@keyframes ins {
+    0%{ translate: 0px 12px ; }
+    30%{ translate: 0px 8px; }
+    50%{ translate: 0px 3px }
+    60%{ translate: 0px 2px; }
+    70%{ translate: 0px 6px; }
+    80%{ translate: 0px 2px; }
+    90%{ translate: 0px 7px; }
+    100% { translate: 0px 12px; }
+}
+
+.con{
+    font-weight: bold;
+}
+
+#op{
+    position:absolute; right:0.5cm; rotate: 90deg; top:3.5cm; color:rgb(64, 200, 224); 
+}
+#op li{
+    rotate:271deg;
+}
+#op img{
+    border-radius: 33px; 
+}
+h3 img:hover{
+    width:30px; height: 30px;
+}
+
+.navbar{
+   position:absolute; width:41cm; height:2cm ; top:7cm; background-color:rgb(136, 176, 248);
+ }
+
+#sp{
+    top:2cm;
+}
+
+/* body{
+    background-size: cover; background-attachment: local;
+    background-position: center; 
+    width: 45cm; position: absolute;
+} */
+
+nav .barre_nav{
+background-color: grey ; height:2cm; width: 25cm; right:0cm; position:absolute; 
+background-size: cover; top: 0cm;
+}
+
+
+
+ .barre_nav li{
+     display:inline-block; margin:0.1cm;
+     border-style: groove; border-radius: 5px;
+     padding: 10px; text-align: center;
+     border-color: rgb(201, 186, 186)
+}
+
+.rect{
+    font-size: 12px;
+}
+
+.espace_recherche{
+    display:inline-block; margin:0.1cm;
+    border-style: groove; border-radius: 5px;
+    padding: 10px; text-align: center; border-width: medium;
+}
+
+.bouton_recherche{
+    display:inline-block; width: 40px; height: 40px;
+    border-radius: 5px
+}
+
+.def{
+    background-image: linear-gradient(35deg, rgb(37, 146, 37),rgb(58, 228, 58), rgb(141, 230, 141)); 
+    background-attachment:scroll; background-repeat: no-repeat;
+    display:inline-block; position: absolute; top: 19cm;
+z-index: 5; box-sizing: content-box; font-size:1cm; text-align: left;
+padding-bottom:0cm; padding-left: 5cm; padding-right: 18cm; word-spacing: 1px;
+width: 17.5cm;
+padding-top: 1cm; background-size:cover;
+
+}
+
+#sect{
+    block-size: 5cm; position:absolute; bottom:-47%; display:inline-block;
+    text-align: left; width:27cm; word-spacing: 2px; 
+    padding-left: 2cm; font-size:18px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#d{
+    font-size: 2cm; color: white; font-family:'Courier New', Courier, monospace;
+}
+
+/* section *{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+#interrogation{
+    size: 1.5cm; color: red; animation: mvnt 2s linear infinite;
+    display:inline-block;
+}
+
+@keyframes mvnt{
+    0% { rotate: 360deg }
+    10%{ rotate: 360deg}
+    20%{rotate:360deg}
+    30% { rotate:360deg}
+    40% { rotate: 120deg }
+    50% { rotate: 140deg }
+    70% { rotate: 250deg}
+    80% { rotate: 320deg }
+    90% { rotate: 350deg; }
+    100% { rotate: 360deg}
+}
+
+.def2{
+    background-image: linear-gradient(35deg, rgb(37, 146, 37),rgb(58, 228, 58), rgb(141, 230, 141)); 
+    background-attachment:scroll; background-repeat: no-repeat;
+    display:inline; position: absolute; top: 39cm;
+z-index: 2; box-sizing: content-box; font-size:1cm; text-align: left;
+padding-bottom:0cm; padding-left: 5cm; padding-right: 28cm;
+padding-top: 1cm; background-size: cover; width:17.5;
+}
+
+#d2{
+    font-size: 2cm; color: white; font-family:'Courier New', Courier, monospace; 
+}
+
+#sect2{
+    block-size: 5cm; position:absolute; top:44cm; display:inline-block;
+    text-align: left; width:27cm; word-spacing: 2px;
+    padding-left: 2cm; font-size:18px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*  */ footer{
+    position:absolute; bottom:-100%; ;
+    border-style: hidden; display:block; background-color: rgb(31, 29, 29);
+    width: 41cm; height:15cm; background-size: cover;
+}
+
+/* footer h2{
+    display:inline-block; margin-left: 2.5cm; 
+    margin-right: 1cm; margin-top: 4cm;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif; font-size:20px;
+    ;
+} */
+
+
+#bgd_foot h2{
+    display:block; color: rgb(255, 255, 255);
+    margin-left: 10cm; text-align: start;
+    position: absolute; font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+
+footer h2:nth-child(1){
+    left:2%;
+    top: 4cm;
+} 
+
+footer h2:nth-child(2){
+    left: 21%; top: 4cm;
+    /* text-align:start; */
+}
+
+footer h2:nth-child(3){
+    width: 7cm; right: 10cm;
+    top: 4cm;
+}
+
+footer h2:nth-child(4){
+    right: 3cm; top: 4cm;
+}
+.log{
+    padding:0cm; margin:1cm; left:-30%;
+    position:absolute; top:-30%; z-index: 1;
+}
+
+.log2{
+    padding:0cm; margin:0cm; left:8%;
+    position:absolute; top:53%; z-index: 2;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
+.bgd_inf{
+    z-index: 3; left: cm; display:inline-block;
+    padding-bottom: 5px ; padding-top: 2px;
+    
+}
+
+#lil_bar{
+    display:block;
+    background-color: rgb(43, 42, 42);
+    background-size: cover;
+    bottom:-105%;color:rgb(255, 255, 255);
+    position:absolute;
+    width: 100.9%; height:0.75cm;
+    text-align: center;
+    font-size:17px; word-spacing: 3px;
+    font-family:sans-serif;
+}
+
+#bgd_bleu{
+    background-color: darkcyan;
+    display: block; position:absolute;
+    width: 20cm; height: 17cm;
+    right:0cm; top: 22cm;
+    opacity: 40%;
+}
+
+#bgd_orange{
+    background-color: darkorange;
+    display: block; position:absolute;
+    width: 25cm; height: 7cm;
+    left:0cm; top: 34cm;
+    opacity: 50%; 
+}
+
+#bgd_image{
+    display:block; position: absolute;
+    height:13cm;
+    top: 43cm; left:22cm;
+    opacity: 45%;
+}
+
+#bgd_cyant{
+    display:block; position: absolute;
+    width: 21cm; height:15cm;
+    top: 39.75cm; left:20cm; background-size: contain;
+    opacity: 15%; background-color: cyan;
+}
+
+.wel_win{
+    position:absolute; display:inline-block; background-color: rgb(255, 255, 255);
+    left:3cm; top:9cm; padding-left:9cm; padding-right:9cm;
+    border-style: hidden;
+}
+
+.wel_win:nth-child(1),.wel_win:nth-child(1) img{ z-index: 3; top:9cm; animation: c1 40s linear infinite;}
+.wel_win:nth-child(2),.wel_win:nth-child(2) img{ z-index: 2; animation:c2 40s linear infinite;}
+.wel_win:nth-child(3),.wel_win:nth-child(3) img{ z-index: 1; top:10cm; animation: c3 40s linear infinite }
+.wel_win:nth-child(4),.wel_win:nth-child(4) img{ z-index: 0; animation: c4 40s linear infinite }
+
+@keyframes c1 {
+
+    0%{
+        width:600px; opacity: 0%;
+    }
+
+    6.25%{
+        width: 620px; opacity: 50%;
+    }
+
+    12.25%{
+        width:640px; opacity: 75%;
+    }
+
+    18.25%{
+        width:660px; opacity: 85%
+    }
+
+    21%{
+        width:680px; opacity:100% ;
+    }
+
+    25%{
+        width:700px; opacity:0%
+    }
+
+    100%{
+        width:600px; opacity:0%;
+    }
+}
+
+@keyframes c2 {
+    0%{
+        width: 600px; opacity: 0%;
+    }
+
+    23%{
+        width:620px; opacity: 25%;
+    }
+
+    29.25%{
+        width:640px; opacity: 50%
+    }
+
+    35.5%{
+        width:660px; opacity:80%
+    }
+
+    40%{
+        width:680px; opacity: 100%;
+    }
+
+    50%{
+        width:700px; opacity: 0%;
+    }
+
+    100%{
+        width: 600px; opacity:0%;
+    }
+}
+
+@keyframes c3 {
+    0%{
+        width: 600px; opacity: 0%;
+    }
+
+    48%{
+        width:620px; opacity: 25%;
+    }
+
+    54.25%{
+        width:640px; opacity: 50%
+    }
+
+    60.5%{
+        width:660px; opacity:75%
+    }
+
+    66.75%{
+        width:680px; opacity: 80%;
+    }
+
+    70%{
+        width:700px; opacity: 100% ;
+    }
+
+    75%{
+        width:720px; opacity: 0%;
+    }
+
+    100%{
+        width:600px; opacity: 0%;
+    }
+}
+
+@keyframes c4 {
+    0%{
+        width: 600px; opacity: 0%;
+    }
+
+    72%{
+        width:620px; opacity:20%;
+    }
+
+    78.25%{
+        width:640px; opacity: 50%;
+    }
+
+    84.5%{
+        width:660px; opacity: 75%
+    }
+
+    90.75%{
+        width:680px; opacity:80%
+    }
+
+    97%{
+        width:700px; opacity: 100%;
+    }
+
+    100%{
+        width:600px; opacity: 0%;
+    }
+}
+
+#login{
+    border-style:ridge; text-align: center; font-size: larger;
+    right: 0cm; position: relative; padding: 2cm;
+    top: -15cm; border-radius: 35px; background-color: rgb(63, 56, 56);
+    color: white;
+}
+
+#ind{  width: 1.5cm;  }
